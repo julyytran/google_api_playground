@@ -1,5 +1,8 @@
 class StaticPagesController < ApplicationController
-  def landing
-    
+  def index
+    service = GoogleService.new
+    @addresses = service.addresses
   end
 end
+
+
