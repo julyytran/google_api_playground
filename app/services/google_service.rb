@@ -11,6 +11,7 @@ class GoogleService
     # result = thing[:rows]
   end
 
+
   private
 
   def parse(response)
